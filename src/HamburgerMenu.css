@@ -1,0 +1,31 @@
+/* HamburgerMenu.css */
+.hamburger-menu {
+    position: relative;
+  }
+  
+  .menu-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #fff; /* Adjust color as needed */
+  }
+  
+  .menu-content {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff; /* Adjust background color as needed */
+    border: 1px solid #ccc; /* Adjust border as needed */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .menu-content a {
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: #333; /* Adjust link color as needed */
+  }
+  
