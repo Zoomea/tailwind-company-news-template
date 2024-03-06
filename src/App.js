@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <div className="my-background pt-12">
+        {/* Navigation bar */}
         <div className="w-full nav flex justify-between">
           <div className="nav-left flex ml-12">
             <HamburgerMenu />
@@ -34,6 +35,7 @@ function App() {
           <div className="mx-auto my-auto" style={{fontSize: "3rem"}}>NEWS</div>
         </div>
       </div>
+      {/* Main content of home page */}
       <div className="main-content-container p-16">
         <div className="bg-white w-full py-8 px-8 mt-[-120px]">
           <div className="news-container w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 my-4">
@@ -53,6 +55,7 @@ function App() {
             </div>
         </div>
       </div>
+      {/* Contact form */}
       <div className="form-container my-24">
         <div className="form flex px-24 mb-12">
           <div className="form-fields w-1/2 border-r-2 py-8">
@@ -90,6 +93,7 @@ function App() {
           </button>
         </div>
       </div>
+      {/* Footer and info section */}
       <div className="footer-container pt-24 pb-16" style={{backgroundColor: "#26203a"}}>
         <div className="mx-auto footer-info flex w-3/4 justify-between mb-24">
           <div className="info-left h-[50px] w-[50px] bg-red-100"></div>
