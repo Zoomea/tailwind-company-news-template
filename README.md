@@ -10,3 +10,5 @@ npm start
 
 It is divided into three sections `navigation`, `main content`, and `footer` on the main page. 
 
+This project uses TailwindCSS to structure the layout.
+
