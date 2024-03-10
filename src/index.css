@@ -26,28 +26,8 @@ code {
 }
 
 @font-face {
-  font-family: 'f37bella';
-  src: url('../public/fonts/f37bella-webfont.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'nolan-bold';
-  src: url('../public/fonts/nolan-bold-webfont.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'nolan-medium';
-  src: url('../public/fonts/nolan-medium-webfont.woff') format('woff');
-}
-
-@font-face {
   font-family: 'parasupreme-lightfine';
   src: url('../public/fonts/parasupreme-lightfine-webfont.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'parasupreme-regularfine';
-  src: url('../public/fonts/parasupreme-regularfine-webfont.woff') format('woff');
 }
 
 body {
