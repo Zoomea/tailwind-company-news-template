@@ -93,7 +93,7 @@ function App() {
         </div>
       </div>
       {/* Footer and info section */}
-      <div className="footer-container pt-24 pb-16" style={{ backgroundColor: "#26203a" }}>
+      <div className="footer-container pt-24 pb-16" style={{ backgroundColor: "#114232" }}>
         <div className="mx-auto footer-info flex w-1/2 justify-between mb-24">
           <div className="info-left text-red-400">
             <div className="grid place-items-center">About</div>

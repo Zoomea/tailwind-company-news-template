@@ -46,6 +46,5 @@
   background: url('./assets/island.jpg') center/cover no-repeat;
   width: 100vw;
   height: 50vh;
-  /* display: flex; */
   color: #fff;
 }
