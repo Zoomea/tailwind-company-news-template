@@ -46,10 +46,10 @@ function App() {
           <div className="w-full nav-bottom flex justify-between my-8">
             <FaArrowLeft size={24} className="text-red-400 hover:text-black transition duration-300" />
             <div className="w-1/5 page-number flex justify-between">
-              <div className="border text-red-400 rounded hover:border-black transition duration-300">01</div>
-              <div>02</div>
-              <div>03</div>
-              <div>04</div>
+              <div className="px-2 py-1 border border-transparent text-red-400 rounded hover:border-red-400 transition duration-300">1</div>
+              <div className="px-2 py-1 border border-transparent rounded hover:text-red-400 hover:border-red-400 transition duration-200">2</div>
+              <div className="px-2 py-1 border border-transparent rounded hover:text-red-400 hover:border-red-400 transition duration-200">3</div>
+              <div className="px-2 py-1 border border-transparent rounded hover:text-red-400 hover:border-red-400 transition duration-200">4</div>
             </div>
             <FaArrowRight size={24} className="text-gray-300 hover:text-black transition duration-300" />
           </div>
