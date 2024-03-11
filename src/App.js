@@ -37,7 +37,7 @@ function App() {
       </div>
       {/* Main content of home page */}
       <div className="main-content-container p-16">
-        <div className="bg-white w-full py-8 px-8 mt-[-120px]">
+        <div className="bg-white w-full py-8 px-8 mt-[-140px]">
           <div className="news-container w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 my-4">
             {[...Array(12)].map((_, index) => (
               <NewsDisplay />
@@ -60,11 +60,6 @@ function App() {
         <div className="form flex px-24 mb-12">
           <div className="form-fields w-1/2 border-r-2 py-8">
             <input
-              type="title"
-              placeholder="TITLE"
-              class="block mx-auto border rounded-md p-2 w-1/2 focus:outline-none focus:ring focus:border-blue-300 mb-2"
-            />
-            <input
               type="name"
               placeholder="NAME"
               class="block mx-auto border rounded-md p-2 w-1/2 focus:outline-none focus:ring focus:border-blue-300 mb-2"
@@ -77,9 +72,13 @@ function App() {
             <input
               type="telephone"
               placeholder="TELEPHONE"
-              class="block mx-auto border rounded-md p-2 w-1/2 focus:outline-none focus:ring focus:border-blue-300"
+              class="block mx-auto border rounded-md p-2 w-1/2 focus:outline-none focus:ring focus:border-blue-300 mb-2"
             />
-
+            <input
+              type="location"
+              placeholder="LOCATION"
+              class="block mx-auto border rounded-md p-2 w-1/2 focus:outline-none focus:ring focus:border-blue-300"
+            />  
           </div>
           <div className="form-description w-1/2 text-red-400">
             <div className="uppercase text-center mt-4 mb-8 text-xs">Updates</div>
