@@ -15,12 +15,12 @@ function App() {
             <HamburgerMenu />
             <a className="ml-4 uppercase" href="#">menu</a>
           </div>
-          <div className="nav-mid">
+          <div className="nav-mid translate-x-3">
             <div className="flex justify-center uppercase">
-              Belmont
+              Liberté
             </div>
             <div className="flex justify-center uppercase">
-              Grange
+              Créative
             </div>
           </div>
           <div className="nav-right flex mr-12">
@@ -84,7 +84,7 @@ function App() {
           <div className="form-description w-1/2 text-red-400">
             <div className="uppercase text-center mt-4 mb-8 text-xs">Updates</div>
             <div className="uppercase text-center mb-8" style={{ fontSize: '2.5rem' }}>join the club</div>
-            <div className="text-center">Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. </div>
+            <div className="text-center">La communauté des freelancers : partage de compétences, collaboration sur des projets passionnants. Rejoignez-nous pour échanger des idées et découvrir de nouvelles opportunités professionnelles.</div>
           </div>
         </div>
         <div className="w-full flex justify-center">
@@ -97,17 +97,17 @@ function App() {
       <div className="footer-container pt-24 pb-16" style={{ backgroundColor: "#26203a" }}>
         <div className="mx-auto footer-info flex w-1/2 justify-between mb-24">
           <div className="info-left text-red-400">
-            <div className="grid place-items-center">Location</div>
-            <div className="flex justify-center">Development</div>
-            <div className="flex justify-center">Lifestyle</div>
-            <div className="flex justify-center">Team</div>
+            <div className="grid place-items-center">About</div>
+            <div className="flex justify-center">Services</div>
+            <div className="flex justify-center">Locations</div>
+            <div className="flex justify-center">Blogs</div>
           </div>
-          <div className="info-mid text-red-400 flex items-center text-xl">Company Name</div>
+          <div className="info-mid text-red-400 flex items-center text-xl">Liberté Créative</div>
           <div className="info-right text-red-400">
             <div className="grid place-items-center">Contact</div>
             <div className="flex justify-center">News</div>
-            <div className="flex justify-center">Register</div>
-            <div className="flex justify-center">Terms</div>
+            <div className="flex justify-center">Partners</div>
+            <div className="flex justify-center">Careers</div>
           </div>
         </div>
         <div className="email-holder w-3/4 mx-auto mb-16 text-red-400 border-b border-red-400 pl-4 pr-2 flex items-center justify-between">
