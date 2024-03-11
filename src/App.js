@@ -2,7 +2,7 @@ import './App.css';
 
 import React, { useState } from 'react';
 import HamburgerMenu from './HamburgerMenu';
-import { FaSearch, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import { FaSearch, FaArrowLeft, FaArrowRight, FaInstagram, FaYoutube, FaLinkedin, FaFacebook, FaTwitter, FaTiktok } from 'react-icons/fa';
 import NewsDisplay from './NewsDisplay';
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
           <div className="mx-auto my-auto uppercase text-xs">Latest</div>
         </div>
         <div className="flex">
-          <div className="mx-auto my-auto" style={{fontSize: "3rem"}}>NEWS</div>
+          <div className="mx-auto my-auto" style={{ fontSize: "3rem" }}>NEWS</div>
         </div>
       </div>
       {/* Main content of home page */}
@@ -44,46 +44,46 @@ function App() {
             ))}
           </div>
           <div className="w-full nav-bottom flex justify-between my-8">
-              <FaArrowLeft size={24} className="text-red-400 hover:text-black transition duration-300" />
-              <div className="w-1/5 page-number flex justify-between">
-                <div className="border text-red-400 rounded hover:border-black transition duration-300">01</div>
-                <div>02</div>
-                <div>03</div>
-                <div>04</div>
-              </div>
-              <FaArrowRight size={24} className="text-gray-300 hover:text-black transition duration-300" />
+            <FaArrowLeft size={24} className="text-red-400 hover:text-black transition duration-300" />
+            <div className="w-1/5 page-number flex justify-between">
+              <div className="border text-red-400 rounded hover:border-black transition duration-300">01</div>
+              <div>02</div>
+              <div>03</div>
+              <div>04</div>
             </div>
+            <FaArrowRight size={24} className="text-gray-300 hover:text-black transition duration-300" />
+          </div>
         </div>
       </div>
       {/* Contact form */}
       <div className="form-container my-24">
         <div className="form flex px-24 mb-12">
           <div className="form-fields w-1/2 border-r-2 py-8">
-          <input
-            type="title"
-            placeholder="TITLE"
-            class="block mx-auto border rounded-md p-2 w-1/2 focus:outline-none focus:ring focus:border-blue-300 mb-2"
-          />
-          <input
-            type="name"
-            placeholder="NAME"
-            class="block mx-auto border rounded-md p-2 w-1/2 focus:outline-none focus:ring focus:border-blue-300 mb-2"
-          />
-          <input
-            type="email"
-            placeholder="EMAIL ADDRESS"
-            class="block mx-auto border rounded-md p-2 w-1/2 focus:outline-none focus:ring focus:border-blue-300 mb-2"
-          />
-          <input
-            type="telephone"
-            placeholder="TELEPHONE"
-            class="block mx-auto border rounded-md p-2 w-1/2 focus:outline-none focus:ring focus:border-blue-300"
-          />
-          
+            <input
+              type="title"
+              placeholder="TITLE"
+              class="block mx-auto border rounded-md p-2 w-1/2 focus:outline-none focus:ring focus:border-blue-300 mb-2"
+            />
+            <input
+              type="name"
+              placeholder="NAME"
+              class="block mx-auto border rounded-md p-2 w-1/2 focus:outline-none focus:ring focus:border-blue-300 mb-2"
+            />
+            <input
+              type="email"
+              placeholder="EMAIL ADDRESS"
+              class="block mx-auto border rounded-md p-2 w-1/2 focus:outline-none focus:ring focus:border-blue-300 mb-2"
+            />
+            <input
+              type="telephone"
+              placeholder="TELEPHONE"
+              class="block mx-auto border rounded-md p-2 w-1/2 focus:outline-none focus:ring focus:border-blue-300"
+            />
+
           </div>
           <div className="form-description w-1/2 text-red-400">
             <div className="uppercase text-center mt-4 mb-8 text-xs">Updates</div>
-            <div className="uppercase text-center mb-8" style={{fontSize: '2.5rem'}}>join the club</div>
+            <div className="uppercase text-center mb-8" style={{ fontSize: '2.5rem' }}>join the club</div>
             <div className="text-center">Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ function App() {
         </div>
       </div>
       {/* Footer and info section */}
-      <div className="footer-container pt-24 pb-16" style={{backgroundColor: "#26203a"}}>
+      <div className="footer-container pt-24 pb-16" style={{ backgroundColor: "#26203a" }}>
         <div className="mx-auto footer-info flex w-1/2 justify-between mb-24">
           <div className="info-left text-red-400">
             <div className="grid place-items-center">Location</div>
@@ -110,11 +110,18 @@ function App() {
             <div className="flex justify-center">Terms</div>
           </div>
         </div>
-        <div className="email-holder w-3/4 mx-auto mb-8 text-red-400 border-b border-red-400 pl-4 pr-2 flex items-center justify-between">
+        <div className="email-holder w-3/4 mx-auto mb-16 text-red-400 border-b border-red-400 pl-4 pr-2 flex items-center justify-between">
           <div className="email-place-holder">Your email address</div>
           <FaArrowRight size={12} className="text-red-400" />
         </div>
-        <div className="social-media-holder h-[30px] w-[100px] bg-red-100 mx-auto"></div>
+        <div className="social-media-holder w-1/5 mx-auto flex justify-between">
+          <FaInstagram size={24} color="#E4405F" />
+          <FaYoutube size={24} color="#FF0000" />
+          <FaLinkedin size={24} color="#0077B5" />
+          <FaFacebook size={24} color="#1877F2" />
+          <FaTwitter size={24} color="#1DA1F2" />
+          <FaTiktok size={24} color="#69C9D0" />
+        </div>
       </div>
     </div>
   );
