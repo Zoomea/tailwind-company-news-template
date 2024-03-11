@@ -95,12 +95,25 @@ function App() {
       </div>
       {/* Footer and info section */}
       <div className="footer-container pt-24 pb-16" style={{backgroundColor: "#26203a"}}>
-        <div className="mx-auto footer-info flex w-3/4 justify-between mb-24">
-          <div className="info-left h-[50px] w-[50px] bg-red-100"></div>
-          <div className="info-mid h-[50px] w-[50px] bg-red-100"></div>
-          <div className="info-right h-[50px] w-[50px] bg-red-100"></div>
+        <div className="mx-auto footer-info flex w-1/2 justify-between mb-24">
+          <div className="info-left text-red-400">
+            <div className="grid place-items-center">Location</div>
+            <div className="flex justify-center">Development</div>
+            <div className="flex justify-center">Lifestyle</div>
+            <div className="flex justify-center">Team</div>
+          </div>
+          <div className="info-mid text-red-400 flex items-center text-xl">Company Name</div>
+          <div className="info-right text-red-400">
+            <div className="grid place-items-center">Contact</div>
+            <div className="flex justify-center">News</div>
+            <div className="flex justify-center">Register</div>
+            <div className="flex justify-center">Terms</div>
+          </div>
         </div>
-        <div className="email-holder w-3/4 bg-red-100 mx-auto mb-8">email</div>
+        <div className="email-holder w-3/4 mx-auto mb-8 text-red-400 border-b border-red-400 pl-4 pr-2 flex items-center justify-between">
+          <div className="email-place-holder">Your email address</div>
+          <FaArrowRight size={12} className="text-red-400" />
+        </div>
         <div className="social-media-holder h-[30px] w-[100px] bg-red-100 mx-auto"></div>
       </div>
     </div>
